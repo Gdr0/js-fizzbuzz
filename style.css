@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(78, 40, 40);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.col {
+  background-color: rgb(71, 71, 107);
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.fizz {
+  background-color: rgb(187, 101, 187);
+}
+.buzz {
+  background-color: rgb(7, 129, 129);
+}
+
+.fizzbuzz {
+  background-color: rgb(194, 194, 9);
+}
